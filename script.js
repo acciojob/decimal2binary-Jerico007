@@ -5,7 +5,7 @@ function decimalToBinary(num) {
 	while(num > 0)
 		{
 			let dig =  num % 2;
-			num  = math.floor(num/2);
+			num  = Math.floor(num/2);
 			ans += dig * p ;
 			p = p * 10;
 		}
