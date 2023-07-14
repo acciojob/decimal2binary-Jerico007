@@ -9,7 +9,7 @@ function decimalToBinary(num) {
 			ans += dig * p ;
 			p = p * 10;
 		}
-	return ans;
+	return ans+"";
 }
 
 window.decimalToBinary = decimalToBinary;
